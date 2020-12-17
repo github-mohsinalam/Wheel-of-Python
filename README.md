@@ -110,7 +110,8 @@ In addition to having all of the instance variables and methods that WOFPlayer h
  
 **Additional Instance variable**  
 
-   - `.difficulty` : The level of difficulty for this computer (should be passed as the second argument into the constructor after .name)
+   - `.difficulty` : The level of difficulty for this computer (should be passed as the second argument into the constructor after .name)  
+   
 **Methods**    
 
    - `.smartCoinFlip()`: This method will help us decide semi-randomly whether to make a “good” or “bad” move.
