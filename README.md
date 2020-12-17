@@ -89,6 +89,11 @@ The user can then enter:
   - `'pass'` to skip their turn
   - a single character to guess that letter
   - a complete phrase (a multi-character phrase other than 'exit' or 'pass') to guess that phrase
+  
+#### WOFComputerPlayer
+Finally, we have a class named `WOFComputerPlayer`, which should inherit from `WOFPlayer`.
+This class is going to represent a computer player.
+
 
 
 
