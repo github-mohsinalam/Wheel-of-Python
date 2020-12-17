@@ -62,13 +62,15 @@ It should also have the following methods (note: we will exclude `self` in our d
    - `.getMove(category, obscuredPhrase, guessed)` : Should ask the user to enter a move (using input())
       and **return whatever string they entered**.
 `.getMove()`’s prompt should be:
-> {name} has ${prizeMoney}
+ {name} has ${prizeMoney}
   
->Category: {category}  
->Phrase:  {obscured_phrase}  
->Guessed: {guessed}  
+<div class = "alert alert-block alert-info">
+   Category: {category}  
+   Phrase:  {obscured_phrase}  
+   Guessed: {guessed}  
   
->Guess a letter, phrase, or type 'exit' or 'pass':   
+   Guess a letter, phrase, or type 'exit' or 'pass':  
+   </div>
 
 
 
