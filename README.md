@@ -118,7 +118,12 @@ In addition to having all of the instance variables and methods that WOFPlayer h
      A higher difficulty should make us more likely to make a “good”     move. Implement this by choosing a
      random number between `1` and `10` using `random.randint(1, 10)` and returning `True` if that random
      number is greater than `self.difficulty`. If the random number is less than or equal to `self.difficulty`, return `False`.
-   - `.getPossibleLetters(guessed)` : This method should return a list of letters that can be guessed.
+   
+   - `.getPossibleLetters(guessed)` : **This method should return a list of letters that can be guessed.**
+     
+     - These should be characters that are in `LETTERS ('ABCDEFGHIJKLMNOPQRSTUVWXYZ')` but not in the `guessed` parameter.
+     - Additionally, if this player doesn’t have enough prize money to guess a vowel (variable VOWEL_COST set to 250), then
+       vowels (variable `VOWELS` set to `'AEIOU'`) should not be included
 
 
 
