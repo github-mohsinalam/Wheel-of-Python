@@ -40,7 +40,7 @@ This project will take you through the process of implementing a simplified vers
    
  ## User defined class 
  
- ### WOFPlayer
+ #### WOFPlayer
  Every instance of `WOFPlayer` has three instance variables:  
    - `.name` : The name of the player (should be passed into the constructor)
    - `.prizeMoney` : The amount of prize money for this player (an integer, initialized to 0)
@@ -53,6 +53,10 @@ It should also have the following methods (note: we will exclude `self` in our d
   - `.addPrize(prize)` : Append prize to self.prizes
   - `.__str__()` : **Returns the player’s name and prize money in the following format:**
     - `Steve ($1800)` (for a player with instance variables `.name == 'Steve'` and `prizeMoney == 1800`)
+    
+ #### WOFHumanPlayer  
+ 
+ This class is going to represent a human player.`WOFHumanPlayer` should inherit from `WOFPlayer`.
 
 
 
