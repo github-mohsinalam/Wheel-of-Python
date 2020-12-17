@@ -7,7 +7,13 @@ This project will take you through the process of implementing a simplified vers
      - Every player has a set of prizes (none at the start of the game)   
 - **The goal is to guess a phrase within a category. For example:**   
      - Category: **Artist & Song**
-     - Phrase: **Whitney Houston’s I Will Always Love You**
+     - Phrase: **Whitney Houston’s I Will Always Love You**   
+- **Players see the category and an obscured version of the phrase where every alphanumeric character in the phrase starts out as hidden (using underscores: `_`):**   
+     - Category: **Artist & Song**
+     - Phrase: `______ ______'_ ____ ______ ____ ___`
+
+
+
 
 
 
