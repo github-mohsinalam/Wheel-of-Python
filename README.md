@@ -60,18 +60,19 @@ It should also have the following methods (note: we will exclude `self` in our d
  In addition to having all of the instance variables and methods that `WOFPlayer` has, `WOFHumanPlayer`
  should have an additional method:
    - `.getMove(category, obscuredPhrase, guessed)` : Should ask the user to enter a move (using input())
-      and **return whatever string they entered**.  
+      and **return whatever string they entered**.
+      
 `.getMove()`’s prompt should be:
-     
-<div class = "alert alert-block alert-warning">
-    {name} has ${prizeMoney}  
+  ---
+    {name} has ${prizeMoney}    
 
    Category: {category}  
    Phrase:  {obscured_phrase}  
    Guessed: {guessed}  
   
-   Guess a letter, phrase, or type 'exit' or 'pass':  
-   </div>
+   Guess a letter, phrase, or type 'exit' or 'pass':
+   
+   ---
 
 
 
