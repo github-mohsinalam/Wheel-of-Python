@@ -22,7 +22,13 @@ This project will take you through the process of implementing a simplified vers
              - Vowels (a, e, i, o, u) cost $250 to guess and can’t be guessed if the player doesn’t have enough money.
                All other letters are “free” to guess
              - The player can guess any letter that hasn’t been guessed and gets that cash
-               amount for every time that letter appears in the phrase
+               amount for every time that letter appears in the phrase  
+             - If there is a prize, the user also gets that prize (in addition to any prizes they already had)  
+             - If the letter does appear in the phrase, the user keeps their turn. Otherwise, it’s the next player’s turn  
+             - **Example: The user lands on $500 and guesses ‘W’**  
+                 - Example: The user lands on $500 and guesses ‘W’
+
+
 
 
 
