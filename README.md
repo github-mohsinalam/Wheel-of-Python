@@ -29,7 +29,8 @@ This project will take you through the process of implementing a simplified vers
                  - Example: The user lands on $500 and guesses ‘W’  
          - **Guess the complete phrase by typing a phrase (anything over one character that isn’t ‘pass’)**  
              - If they are correct, they win the game  
-             - If they are incorrect, it is the next player’s turn
+             - If they are incorrect, it is the next player’s turn  
+         - **Pass** their turn by entering `'pass'`
 
 
 
