@@ -36,6 +36,21 @@ This project will take you through the process of implementing a simplified vers
      - If the wheel lands on **“bankrupt”**, the player loses their turn and loses their money but they keep all of the prizes they have won so far.  
      
 - The game continues until the entire phrase is revealed (or one player guesses the complete phrase)
+
+   
+ ## User defined class 
+ 
+ ### WOFPlayer
+ Every instance of `WOFPlayer` has three instance variables:  
+   - `.name` : The name of the player (should be passed into the constructor)
+   - `.prizeMoney` : The amount of prize money for this player (an integer, initialized to 0)
+   - `.prizes` : The prizes this player has won so far (a list, initialized to [])
+
+
+
+
+
+
          
 
 
