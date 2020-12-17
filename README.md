@@ -26,7 +26,12 @@ This project will take you through the process of implementing a simplified vers
              - If there is a prize, the user also gets that prize (in addition to any prizes they already had)  
              - If the letter does appear in the phrase, the user keeps their turn. Otherwise, it’s the next player’s turn  
              - **Example: The user lands on $500 and guesses ‘W’**  
-                 - Example: The user lands on $500 and guesses ‘W’
+                 - Example: The user lands on $500 and guesses ‘W’  
+         - **Guess the complete phrase by typing a phrase (anything over one character that isn’t ‘pass’)**  
+             - If they are correct, they win the game  
+             - If they are incorrect, it is the next player’s turn
+
+
 
 
 
