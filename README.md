@@ -11,7 +11,15 @@ This project will take you through the process of implementing a simplified vers
 - **Players see the category and an obscured version of the phrase where every alphanumeric character in the phrase starts out as hidden (using underscores: `_`):**   
      - Category: **Artist & Song**
      - Phrase: `______ ______'_ _ ____ ______ ____ ___`   
-- Note that case (capitalization) does not matter
+- Note that case (capitalization) does not matter   
+
+   
+- **During their turn, every player spins the wheel to determine a prize amount and:**   
+     
+     - **If the wheel lands on a cash square, players may do one of three actions:**  
+         
+         - **Guess any letter that hasn’t been guessed by typing a letter (a-z)**
+
 
 
 
