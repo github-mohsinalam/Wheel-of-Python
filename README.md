@@ -102,6 +102,14 @@ difficulty generally play “better”. There are many ways to implement this. W
     **given turn (a higher difficulty should make it more likely for the player to make a “good” move)**
       - To make a “bad” move, we’ll randomly decide on a possible letter.
       - To make a “good” move, we’ll choose a letter according to their overall frequency in the English language.
+      
+In addition to having all of the instance variables and methods that WOFPlayer has, WOFComputerPlayer should have:
+**Class variable**
+  - `.SORTED_FREQUENCIES` : Should be set to 'ZQXJKVBPYGFWMUCLDRHSNIOATE', which is a list of English characters
+     sorted from least frequent ('Z') to most frequent ('E'). We’ll use this when trying to make a “good” move.
+**Additional Instance variable**
+
+
 
 
 
