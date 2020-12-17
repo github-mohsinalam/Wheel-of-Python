@@ -103,12 +103,12 @@ difficulty generally play “better”. There are many ways to implement this. W
       - To make a “bad” move, we’ll randomly decide on a possible letter.
       - To make a “good” move, we’ll choose a letter according to their overall frequency in the English language.
       
-In addition to having all of the instance variables and methods that WOFPlayer has, WOFComputerPlayer should have:
+In addition to having all of the instance variables and methods that WOFPlayer has, WOFComputerPlayer should have:  
 **Class variable**
-  - `.SORTED_FREQUENCIES` : Should be set to 'ZQXJKVBPYGFWMUCLDRHSNIOATE', which is a list of English characters
+   - `.SORTED_FREQUENCIES` : Should be set to 'ZQXJKVBPYGFWMUCLDRHSNIOATE', which is a list of English characters
      sorted from least frequent ('Z') to most frequent ('E'). We’ll use this when trying to make a “good” move.  
 **Additional Instance variable**
-  - `.difficulty` : The level of difficulty for this computer (should be passed as the second argument into the constructor after .name)
+   - `.difficulty` : The level of difficulty for this computer (should be passed as the second argument into the constructor after .name)
   
 
 
