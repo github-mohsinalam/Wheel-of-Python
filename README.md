@@ -32,7 +32,10 @@ This project will take you through the process of implementing a simplified vers
              - If they are incorrect, it is the next player’s turn  
          - **Pass** their turn by entering `'pass'`  
          
-     - If the wheel lands on **“lose a turn”**, the player loses their turn and the game moves on to the next player
+     - If the wheel lands on **“lose a turn”**, the player loses their turn and the game moves on to the next player  
+     - If the wheel lands on **“bankrupt”**, the player loses their turn and loses their money but they keep all of the prizes they have won so far.  
+     
+- The game continues until the entire phrase is revealed (or one player guesses the complete phrase)
          
 
 
