@@ -98,8 +98,8 @@ difficulty generally play “better”. There are many ways to implement this. W
   - If there aren’t any possible letters to choose (for example: if the last character is a vowel
     but this player doesn’t have enough to guess a vowel), we’ll 'pass'
   
-  - Otherwise, semi-randomly decide whether to make a “good” move or a “bad” move on a
-    given turn (a higher difficulty should make it more likely for the player to make a “good” move)
+  - **Otherwise, semi-randomly decide whether to make a “good” move or a “bad” move on a**
+    **given turn (a higher difficulty should make it more likely for the player to make a “good” move)**
     
 
 
