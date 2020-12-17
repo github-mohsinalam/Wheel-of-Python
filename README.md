@@ -84,7 +84,11 @@ For example:
   Guess a letter, phrase, or type 'exit' or 'pass':
 ```
 
-   
+The user can then enter:
+  - `'exit'` to exit the game
+  - `'pass'` to skip their turn
+  - a single character to guess that letter
+  - a complete phrase (a multi-character phrase other than 'exit' or 'pass') to guess that phrase
 
 
 
