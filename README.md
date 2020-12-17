@@ -100,7 +100,10 @@ difficulty generally play “better”. There are many ways to implement this. W
   
   - **Otherwise, semi-randomly decide whether to make a “good” move or a “bad” move on a**
     **given turn (a higher difficulty should make it more likely for the player to make a “good” move)**
-    
+      - To make a “bad” move, we’ll randomly decide on a possible letter.
+      - To make a “good” move, we’ll choose a letter according to their overall frequency in the English language.
+
+
 
 
 
