@@ -116,8 +116,9 @@ In addition to having all of the instance variables and methods that WOFPlayer h
 
    - `.smartCoinFlip()`: This method will help us decide semi-randomly whether to make a “good” or “bad” move.
      A higher difficulty should make us more likely to make a “good”     move. Implement this by choosing a
-     random number between 1 and 10 using random.randint(1, 10) (see above) and returning True if that random
-     number is greater than self.difficulty. If the random number is less than or equal to self.difficulty, return False.
+     random number between `1` and `10` using `random.randint(1, 10)` and returning `True` if that random
+     number is greater than `self.difficulty`. If the random number is less than or equal to `self.difficulty`, return `False`.
+   - `.getPossibleLetters(guessed)` : This method should return a list of letters that can be guessed.
 
 
 
