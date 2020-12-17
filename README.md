@@ -64,7 +64,15 @@ It should also have the following methods (note: we will exclude `self` in our d
       
 `.getMove()`’s prompt should be:
   
-> {name} has ${prizeMoney}    Category: {category}   Phrase:  {obscured_phrase}   Guessed: {guessed}  Guess a letter, phrase, or type 'exit' or 'pass':
+```
+   {name} has ${prizeMoney}
+
+   Category: {category}
+   Phrase:  {obscured_phrase}
+   Guessed: {guessed}
+
+   Guess a letter, phrase, or type 'exit' or 'pass':
+```
    
 
 
