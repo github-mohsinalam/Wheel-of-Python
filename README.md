@@ -111,7 +111,14 @@ In addition to having all of the instance variables and methods that WOFPlayer h
 **Additional Instance variable**  
 
    - `.difficulty` : The level of difficulty for this computer (should be passed as the second argument into the constructor after .name)
-  
+**Methods**  
+
+  - `.smartCoinFlip()`: This method will help us decide semi-randomly whether to make a “good” or “bad” move.
+     A higher difficulty should make us more likely to make a “good”     move. Implement this by choosing a
+     random number between 1 and 10 using random.randint(1, 10) (see above) and returning True if that random
+     number is greater than self.difficulty. If the random number is less than or equal to self.difficulty, return False.
+
+
 
 
 
