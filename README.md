@@ -124,6 +124,19 @@ In addition to having all of the instance variables and methods that WOFPlayer h
      - These should be characters that are in `LETTERS ('ABCDEFGHIJKLMNOPQRSTUVWXYZ')` but not in the `guessed` parameter.
      - Additionally, if this player doesn’t have enough prize money to guess a vowel (variable VOWEL_COST set to 250), then
        vowels (variable `VOWELS` set to `'AEIOU'`) should not be included
+       
+   - `.getMove(category, obscuredPhrase, guessed)`: **Should return a valid move.**
+     - Use the `.getPossibleLetters(guessed)` method described above  
+     - If there aren’t any letters that can be guessed (this can happen if the only letters left to guess are vowels and
+       the player doesn’t have enough for vowels), return `'pass'`  
+     - **Use the `.smartCoinFlip()` method to decide whether to make a “good” or a “bad” move**
+       - If making a “good” move `(.smartCoinFlip()` returns `True`), then return the most frequent
+         (highest index in `.SORTED_FREQUENCIES`) possible character  
+       - If making a “bad” move (`.smartCoinFlip()` returns `False`), then return a random character from
+         the set of possible characters (use `random.choice()`)
+
+
+         
 
 
 
