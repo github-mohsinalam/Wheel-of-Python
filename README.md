@@ -91,8 +91,16 @@ The user can then enter:
   - a complete phrase (a multi-character phrase other than 'exit' or 'pass') to guess that phrase
   
 #### WOFComputerPlayer
-Finally, we have a class named `WOFComputerPlayer`, which should inherit from `WOFPlayer`.
-This class is going to represent a computer player.
+Finally, we have a class named `WOFComputerPlayer`, which should inherit from `WOFPlayer`.  
+This class is going to represent a computer player.  
+Every computer player will have a difficulty instance variable. Players with a higher  
+difficulty generally play “better”. There are many ways to implement this. We’ll do the following:  
+  - If there aren’t any possible letters to choose (for example: if the last character is a vowel
+    but this player doesn’t have enough to guess a vowel), we’ll 'pass'
+  
+  - Otherwise, semi-randomly decide whether to make a “good” move or a “bad” move on a
+    given turn (a higher difficulty should make it more likely for the player to make a “good” move)
+    
 
 
 
