@@ -10,7 +10,8 @@ This project will take you through the process of implementing a simplified vers
      - Phrase: **Whitney Houston’s I Will Always Love You**   
 - **Players see the category and an obscured version of the phrase where every alphanumeric character in the phrase starts out as hidden (using underscores: `_`):**   
      - Category: **Artist & Song**
-     - Phrase: `______ ______'_ ____ ______ ____ ___`
+     - Phrase: `______ ______'_ _ ____ ______ ____ ___`   
+- Note that case (capitalization) does not matter
 
 
 
