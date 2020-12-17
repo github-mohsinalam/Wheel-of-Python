@@ -73,6 +73,17 @@ It should also have the following methods (note: we will exclude `self` in our d
 
    Guess a letter, phrase, or type 'exit' or 'pass':
 ```
+For example:
+```
+  Steve has $200
+
+  Category: Places
+  Phrase: _L___ER N____N_L P_RK
+  Guessed: B, E, K, L, N, P, R, X, Z
+
+  Guess a letter, phrase, or type 'exit' or 'pass':
+```
+
    
 
 
