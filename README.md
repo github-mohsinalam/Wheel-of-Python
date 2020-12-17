@@ -30,7 +30,10 @@ This project will take you through the process of implementing a simplified vers
          - **Guess the complete phrase by typing a phrase (anything over one character that isn’t ‘pass’)**  
              - If they are correct, they win the game  
              - If they are incorrect, it is the next player’s turn  
-         - **Pass** their turn by entering `'pass'`
+         - **Pass** their turn by entering `'pass'`  
+         
+     - If the wheel lands on **“lose a turn”**, the player loses their turn and the game moves on to the next player
+         
 
 
 
