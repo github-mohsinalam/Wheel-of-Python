@@ -4,6 +4,11 @@ The final project for the course __[Python Class and Inheritance](https://www.co
 This project will take you through the process of implementing a simplified version of the game Wheel of Fortune. Here are the rules of our game:  
 - **There are `num_human` human players and `num_computer` computer players.**
      - Every player has some amount of money ($0 at the start of the game)   
-     - Every player has a set of prizes (none at the start of the game)
+     - Every player has a set of prizes (none at the start of the game)   
+- **The goal is to guess a phrase within a category. For example:**   
+     - Category: **Artist & Song**
+     - Phrase: **Whitney Houston’s I Will Always Love You**
+
+
 
 
